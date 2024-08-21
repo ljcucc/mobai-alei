@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+:root {
+  font-family: "cwTeXKai", serif;
+  font-weight: 800;
+}
+
+input,
+button,
+textarea {
+  font-family: "cwTeXKai", serif;
+  font-weight: 300;
+}
+
+html {
+  /* background: url(./assets/background.jpg) repeat 70% / 70%; */
+  background: url(/assets/background.jpg) center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.75);
+  max-width: 800px;
+
+  width: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+marquee {
+  font-size: 30px;
+  background: blue;
+  color: yellow;
+}
+
+#app {
+  padding: 16px;
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 32px;
+}
