@@ -15,7 +15,7 @@ const canvas = ref(null);
 const wish = ref(null);
 
 function randomNumber() {
-  const randomNumber = Math.floor(Math.random() * 26);
+  const randomNumber = Math.floor(Math.random() * 29);
   const paddedNumber = randomNumber.toString().padStart(2, "0");
   return paddedNumber;
 }
